@@ -1,7 +1,5 @@
 module ScrapeNews
-using HTTP
-using Gumbo
-using Cascadia
+using HTTP, Gumbo, Cascadia
 
 """
 

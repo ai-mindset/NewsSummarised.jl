@@ -3,8 +3,7 @@ include("OllamaAI.jl")
 
 ##
 # Imports
-using HTTP
-using JSON
+using HTTP, JSON
 
 ##
 # Globals
@@ -46,28 +45,34 @@ Chunk length is calculated using the token = 0.75 word conversion,
 according to [OpenAI API documentation](https://platform.openai.com/docs/introduction).
 
 # Arguments
-- `vector::Vector{String}`: A vector of strings
+- `text::String`: A string of text
 
 # Returns
-- `Dict{Int64, String}`: Chunks our text had been divided into
+- `Dict{Int64, String}`: Chunks `text` has been divided into
 """
-function segment_input(vector::Vector{String})::Dict{Int64,String}
+function segment_input(text::String)::Dict{Int64,String}
+    # TODO: Improve
     d = Dict{Int64,String}()
-    i = 1
-    chunk = ""
+    no_tokens, _ = word_and_token_count(text)
+    folds::Int64 = ceil(Int, no_tokens / CONTEXT_TOKENS)
+    text_vec::Vector{SubString{String}} = split(text)
+    len_text_vec::Int64 = length(text_vec)
+    last_chunk_len::Int64 = len_text_vec % CONTEXT_WORDS
 
-    for text in vector
-        chunk *= text * " "
-        no_tokens, no_words = word_and_token_count(chunk)
-        if no_tokens >= (CONTEXT_TOKENS - 10)
-            d[i] = chunk
-            chunk = ""
-            i += 1
+    for i in range(stop=folds)
+        local window
+        if folds > 1
+            window::UnitRange{Int64} = i:CONTEXT_WORDS-1
+            if i == folds
+                window = window[end]+1:window[end]+last_chunk_len
+            end
+        else
+            window = i:len_text_vec
         end
-    end
-
-    if !isempty(chunk)
-        d[i] = chunk
+        vec::Vector{SubString{String}} = text_vec[window]
+        chunk::String = join(vec, " ")
+        no_tokens, _ = word_and_token_count(chunk)
+        d[no_tokens] = chunk
     end
 
     return d
@@ -89,9 +94,9 @@ function summarise_text(model::String, chunks::Dict{Int64,String})::Vector{Strin
     local url = "http://localhost:11434/api/generate"
     for (_, v) in chunks
         prompt = "Transcript excerpt: $v"
-        prompt *= """\nSummarise the most important points in the news bulletin above, in three paragraphs at most.
+        prompt *= """\nSummarise the most important points in the news bulletin above.
             Only return the summary, wrapped in single quotes (' '), and nothing else.
-            Be concise"""
+            Be concise. Be precise."""
         request = OllamaAI.send_request(prompt, model)
         res = HTTP.request("POST", url, [("Content-type", "application/json")], request)
         if res.status == 200
