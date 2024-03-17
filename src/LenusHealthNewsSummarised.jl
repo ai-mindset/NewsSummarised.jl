@@ -19,10 +19,7 @@ for url in urls[end-1:end]
     close(file)
 end
 
-<<<<<<< HEAD
 # TODO: The final step might be to summarie the summaries,
 # to get a global overview of the company's activities over the years
 
-=======
->>>>>>> unit_tests
 end # module LenusHealthNewsSummarised
