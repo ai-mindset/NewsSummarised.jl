@@ -3,8 +3,8 @@ using Test
 include("./../src/Summarise.jl")
 
 @testset "Word count" begin
-    @test 16 == Summarise.word_and_token_count("how many words are in this sentence? The correct answer is twelve")[1] # words: `echo <sentence>" | wc -w`, tokens: round(words / 0.75)
-    @test 12 == Summarise.word_and_token_count("how many words are in this sentence? The correct answer is twelve")[2] # words: `echo <sentence>" | wc -w`, tokens: round(words / 0.75)
+    @test 16 == Summarise.word_and_token_count("how many words are in this sentence? The correct answer is twelve")[1] # number of tokens
+    @test 12 == Summarise.word_and_token_count("how many words are in this sentence? The correct answer is twelve")[2] # words: `echo "<sentence>" | wc -w`, tokens: round(words / 0.75)
 end
 
 @testset "Segment input" begin

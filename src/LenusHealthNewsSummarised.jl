@@ -3,7 +3,6 @@ include("ScrapeNews.jl")
 include("Summarise.jl")
 
 urls::Vector{String} = ScrapeNews.grab_news_urls()
-url = urls[end-2] # "https://lenushealth.com/news/what-is-preventive-healthcare/"
 
 all_news::Vector{String} = []
 for url in urls[end-1:end]
@@ -18,6 +17,5 @@ for url in urls[end-1:end]
     end
     close(file)
 end
-
 
 end # module LenusHealthNewsSummarised

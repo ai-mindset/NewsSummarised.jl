@@ -94,7 +94,7 @@ function summarise_text(model::String, chunks::Dict{Int64,String})::Vector{Strin
     local url = "http://localhost:11434/api/generate"
     for (_, v) in chunks
         prompt = "Transcript excerpt: $v"
-        prompt *= """\nSummarise the most important points in the news bulletin above, in three paragraphs at most.
+        prompt *= """\nSummarise the most important points in the news bulletin above.
             Only return the summary, wrapped in single quotes (' '), and nothing else.
             Be concise"""
         request = OllamaAI.send_request(prompt, model)
