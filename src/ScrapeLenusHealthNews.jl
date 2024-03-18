@@ -1,4 +1,4 @@
-module ScrapeNews
+module ScrapeLenusHealthNews
 using HTTP, Gumbo, Cascadia
 
 """
@@ -37,10 +37,16 @@ function extract_text_from_url(url::String)::String
     for elem in article
         for par in elem.children
             c = par.children[1]
-            if c isa HTMLElement && !isa(c, HTMLElement{:br})
-                push!(extracted_text, c.children[1].text)
-            elseif c isa HTMLNode && !isa(c, HTMLElement{:br})
-                push!(extracted_text, c.text)
+            try
+                if c isa HTMLElement && !isa(c, HTMLElement{:br}) && !isa(c, HTMLElement{:table})
+                    push!(extracted_text, c.children[1].text)
+                elseif c isa HTMLElement && tag(par) == :div
+                    # TODO: extract table data
+                elseif c isa HTMLNode && !isa(c, HTMLElement{:br})
+                    push!(extracted_text, c.text)
+                end
+            catch e
+                error("ScrapeNews.extract_text_from_url(): $e")
             end
         end
     end

@@ -4,7 +4,7 @@ using Test
 @testset "Test webscraping and summarising steps" begin
 
     @testset "Webscrape tests" begin
-        include("scrapenews_tests.jl")
+        include("scrapelenushealthnews_tests.jl")
     end
 
     @testset "Summarise tests" begin

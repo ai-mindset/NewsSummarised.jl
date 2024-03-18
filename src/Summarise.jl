@@ -3,7 +3,9 @@ include("OllamaAI.jl")
 
 ##
 # Imports
-using HTTP, JSON
+using HTTP: request
+using JSON: parse
+using Glob: glob
 
 ##
 # Globals
@@ -94,13 +96,13 @@ function summarise_text(model::String, chunks::Dict{Int64,String})::Vector{Strin
     local url = "http://localhost:11434/api/generate"
     for (_, v) in chunks
         prompt = "Transcript excerpt: $v"
-        prompt *= """\nSummarise the most important points in the news bulletin above.
+        prompt *= """\nSummarise the news bulletin above and highlight its most important points.
             Only return the summary, wrapped in single quotes (' '), and nothing else.
-            Be concise. Be precise."""
+            Be precise."""
         request = OllamaAI.send_request(prompt, model)
-        res = HTTP.request("POST", url, [("Content-type", "application/json")], request)
+        res = request("POST", url, [("Content-type", "application/json")], request)
         if res.status == 200
-            body = JSON.parse(String(res.body))
+            body = parse(String(res.body))
             push!(summaries, body["response"])
         else
             println("LLM returned status $(res.status)")
@@ -108,6 +110,81 @@ function summarise_text(model::String, chunks::Dict{Int64,String})::Vector{Strin
     end
 
     return summaries
+end
+
+##
+"""
+   is_empty(filename::String)::Bool
+
+Check if text file `filename` is empty
+
+# Arguments
+- `filename::String`: Filename we'd like to Check
+
+# Returns
+- `is_empty::Bool`: Flag indcating if `filename` is empty. True = empty, False = is populated
+"""
+function is_empty(filename::String)::Bool
+    is_empty::Bool = false
+
+    open(filename) do file
+        content::String = read(file, String)
+        if content == ""
+            is_empty = true
+        end
+    end
+
+    return is_empty
+
+end
+
+##
+"""
+    master_summary(model::String)::Vector{String}
+
+# Arguments
+- `model::String`: LLM model to use for summarising text. Make sure it's already downloaded locally
+
+# Returns
+- `final_summary::Vector{String}`: Summary of all summaries, to extract the overarching theme
+"""
+function master_summary(model::String)::Vector{String}
+    # Given we've navigated to `./news`, list .txt files
+    file_list::Vector{String} = glob("*.txt")
+    file = "merged_summaries.txt"
+
+    if is_empty(file)
+        error("Summarise.master_summary(): $file is empty!")
+    end
+
+    out_file::IOStream = open(file, "w")
+    prompt = "The following paragraphs summarise the company's activity since 2018.
+    The company has been exploring aspects of healthcare, ways to improve patient outcomes,
+    prevent and diagnose illness in a timely manner.
+    Here is how the company has explored the British healthcare space:\n\n
+    "
+    write(out_file, prompt)
+    for txt in file_list
+        file_title::String = replace(basename(txt), "-" => " ")
+        file_title = replace(file_title, ".txt" => "")
+        file_content = read(txt, String)
+        write(out_file, "This section describes $file_title:\n$file_content\n\n")
+    end
+    final_statement = "With the above in mind, explain to me step by step the most important
+    projects, milestones, activities and outcomes the company has achieved over the years.
+    Be precise. Avoid repetition. Use correct grammar. Return a summary that flows,
+    to help the reader get a global overview of the company's achievements and focus."
+    write(out_file, final_statement)
+    close(out_file)
+
+    c::Dict{Int64,String} = segment_input(read(file, String))
+    final_summary::Vector{String} = summarise_text(model, c)
+    f = open("final_summary.txt", "a")
+    write(f, join(final_summary, " "))
+    close(f)
+
+    return final_summary
+
 end
 
 end

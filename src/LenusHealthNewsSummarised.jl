@@ -1,25 +1,46 @@
 module LenusHealthNewsSummarised
-include("ScrapeNews.jl")
+include("ScrapeLenusHealthNews.jl")
 include("Summarise.jl")
 
-urls::Vector{String} = ScrapeNews.grab_news_urls()
-url = urls[end-2] # "https://lenushealth.com/news/what-is-preventive-healthcare/"
+##
+const PROJECT_ROOT::String = @__DIR__
+const MODEL::String = "mistral"
+const NEWS_DIR::String = "news"
 
-all_news::Vector{String} = []
-for url in urls[end-1:end]
-    title = split(url, "/")[end-1] * "-summary"
-    webpage_text::String = ScrapeNews.extract_text_from_url(url)
-    push!(all_news, webpage_text)
-    segmented::Dict{Int64,String} = Summarise.segment_input(webpage_text)
-    summaries::Vector{String} = Summarise.summarise_text("mistral", segmented)
-    file = open(title * ".txt", "a")
-    for s in summaries
-        write(file, s)
+##
+function julia_main()::String
+    if (@__DIR__) != PROJECT_ROOT
+        cd(PROJECT_ROOT)
     end
-    close(file)
+    if !isdir(NEWS_DIR)
+        mkdir(NEWS_DIR)
+    end
+    cd(NEWS_DIR)
+    urls::Vector{String} = ScrapeLenusHealthNews.grab_news_urls()
+
+    all_news::Vector{String} = []
+    for url in urls
+        title = split(url, "/")[end-1] * "-summary"
+        webpage_text::String = ScrapeLenusHealthNews.extract_text_from_url(url)
+        push!(all_news, webpage_text)
+        segmented::Dict{Int64,String} = Summarise.segment_input(webpage_text)
+        summaries::Vector{String} = Summarise.summarise_text(MODEL, segmented)
+        file = open(title * ".txt", "a")
+        for s in summaries
+            write(file, s)
+        end
+        close(file)
+    end
+
+    # Summarise the summaries to get a final insight of the company's activities over their existence
+    final_summary::Vector{String} = Summarise.master_summary(MODEL)
+
+    cd(PROJECT_ROOT)
+
+    return final_summary
+
 end
 
-# TODO: The final step might be to summarie the summaries,
-# to get a global overview of the company's activities over the years
+
 
 end # module LenusHealthNewsSummarised
