@@ -1,4 +1,4 @@
-module LenusHealthNewsSummarised
+module NewsSummarised
 include("ScrapeLenusHealthNews.jl")
 include("Summarise.jl")
 
