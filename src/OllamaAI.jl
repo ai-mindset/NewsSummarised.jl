@@ -12,12 +12,13 @@ Send request to Ollama LLM
 # Arguments
 - `prompt::String`: Prompt incl. context to be sent to Ollama LLM
 - `model::String`: Model name
+- `stage::String`: Description of the stage of the process e.g. "Final summary". This is used
 
 # Credit
 @rcherukuri12 for the [solution](https://discourse.julialang.org/t/using-julia-to-connect-to-local-llms/106137)
 """
-function send_request(prompt::String, model::String)
-    println("Sending request to LLM...")
+function send_request(prompt::String, model::String, stage::String)
+    println("$stage: Sending request to LLM...")
     data = Dict() # declare empty to support Any type.
     data["model"] = model
     data["prompt"] = prompt

@@ -56,20 +56,22 @@ function segment_input(text::String)::Dict{Int64,String}
     # TODO: Improve
     d = Dict{Int64,String}()
     no_tokens, _ = word_and_token_count(text)
-    folds::Int64 = ceil(Int, no_tokens / CONTEXT_TOKENS)
+    # How many batches should the text be divided to, to fit context
+    no_batches::Int64 = ceil(Int, no_tokens / CONTEXT_TOKENS)
+    # Split text string to vector of individual words
     text_vec::Vector{SubString{String}} = split(text)
-    len_text_vec::Int64 = length(text_vec)
-    last_chunk_len::Int64 = len_text_vec % CONTEXT_WORDS
+    text_vec_length::Int64 = length(text_vec)
+    last_chunk_length::Int64 = text_vec_length % CONTEXT_WORDS
 
-    for i in range(stop=folds)
+    for i in range(stop=no_batches)
         local window
-        if folds > 1
+        if no_batches > 1
             window::UnitRange{Int64} = i:CONTEXT_WORDS-1
-            if i == folds
-                window = window[end]+1:window[end]+last_chunk_len
+            if i == no_batches
+                window = window[end]+1:window[end]+last_chunk_length
             end
         else
-            window = i:len_text_vec
+            window = i:text_vec_length
         end
         vec::Vector{SubString{String}} = text_vec[window]
         chunk::String = join(vec, " ")
@@ -82,16 +84,18 @@ end
 
 ##
 """
-    summarise_text(model::String, chunks::Dict{Int64,String})::Vector{String}
+    summarise_text(model::String, chunks::Dict{Int64,String}, stage::String)::Vector{String}
 
 # Arguments
 - `model::String`: LLM model to use for summarising text. Make sure it's already downloaded locally
 - `chunks::Dict{Int64,String}`: Segmented text (when longer than context window) as output from `segment_input()`
+- `stage::String`: Description of the stage of the process e.g. "Final summary". This is used
+for printing information on the terminal
 
 # Returns
 - `summaries::Vector{String}`: Summary of each text chunk of text, as divided by `segment_input()`
 """
-function summarise_text(model::String, chunks::Dict{Int64,String})::Vector{String}
+function summarise_text(model::String, chunks::Dict{Int64,String}, stage::String)::Vector{String}
     local summaries = Vector{String}()
     local url = "http://localhost:11434/api/generate"
     for (_, v) in chunks
@@ -99,8 +103,8 @@ function summarise_text(model::String, chunks::Dict{Int64,String})::Vector{Strin
         prompt *= """\nSummarise the news bulletin above and highlight its most important points.
             Only return the summary, wrapped in single quotes (' '), and nothing else.
             Be precise."""
-        request = OllamaAI.send_request(prompt, model)
-        res = request("POST", url, [("Content-type", "application/json")], request)
+        req = OllamaAI.send_request(prompt, model, stage)
+        res = request("POST", url, [("Content-type", "application/json")], req)
         if res.status == 200
             body = parse(String(res.body))
             push!(summaries, body["response"])
@@ -116,16 +120,16 @@ end
 """
    is_empty(filename::String)::Bool
 
-Check if text file `filename` is empty
+Check if `filename` file is empty
 
 # Arguments
 - `filename::String`: Filename we'd like to Check
 
 # Returns
-- `is_empty::Bool`: Flag indcating if `filename` is empty. True = empty, False = is populated
+- `is_empty::Bool`: Flag indicating if `filename` is empty. True = empty, False = is populated
 """
 function is_empty(filename::String)::Bool
-    is_empty::Bool = false
+    local is_empty::Bool = false
 
     open(filename) do file
         content::String = read(file, String)
@@ -138,26 +142,24 @@ function is_empty(filename::String)::Bool
 
 end
 
+
 ##
 """
     master_summary(model::String)::Vector{String}
 
 # Arguments
 - `model::String`: LLM model to use for summarising text. Make sure it's already downloaded locally
+- `final_file::String`: Filename of final summary text file
 
 # Returns
 - `final_summary::Vector{String}`: Summary of all summaries, to extract the overarching theme
 """
-function master_summary(model::String)::Vector{String}
+function master_summary(model::String, final_file::String)::Vector{String}
     # Given we've navigated to `./news`, list .txt files
     file_list::Vector{String} = glob("*.txt")
-    file = "merged_summaries.txt"
+    file = "merged-summaries.txt"
+    out_file::IOStream = open(file, "a")
 
-    if is_empty(file)
-        error("Summarise.master_summary(): $file is empty!")
-    end
-
-    out_file::IOStream = open(file, "w")
     prompt = "The following paragraphs summarise the company's activity since 2018.
     The company has been exploring aspects of healthcare, ways to improve patient outcomes,
     prevent and diagnose illness in a timely manner.
@@ -178,8 +180,8 @@ function master_summary(model::String)::Vector{String}
     close(out_file)
 
     c::Dict{Int64,String} = segment_input(read(file, String))
-    final_summary::Vector{String} = summarise_text(model, c)
-    f = open("final_summary.txt", "a")
+    final_summary::Vector{String} = summarise_text(model, c, "Final summary")
+    f = open(final_file, "a")
     write(f, join(final_summary, " "))
     close(f)
 
