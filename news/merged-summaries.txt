@@ -1,0 +1,454 @@
+The following paragraphs summarise the company's activity since 2018.
+    The company has been exploring aspects of healthcare, ways to improve patient outcomes,
+    prevent and diagnose illness in a timely manner.
+    Here is how the company has explored the British healthcare space:
+
+
+    This section describes ai analysis integrated by lenus health holds potential to speed detection of heart failure summary:
+ 'New research presented at the ESC Conference shows AI technology interpreting heart ultrasound images is as effective as human operators, reducing diagnosis time significantly. Heart failure diagnosis could be improved with early detection, as it affects over a million people in the UK. The OPERA study, a collaboration between Glasgow University, AstraZeneca, Lenus Health and NHS, demonstrates potential of AI to make heart failure diagnosis faster and more accessible through the SYMPHONY global study.'
+
+This section describes commitment to health partnership extended summary:
+ 'The Health Innovation and Transformation Partnership between NHS Scotland, University of Glasgow, AstraZeneca UK, Lenus Health, and NHS Greater Glasgow & Clyde has been extended for three more years. The collaboration aims to improve patient care, employ new technologies and medicines, and address health inequalities through large-scale programs. Projects include OPERA, an early heart failure identification initiative. Dame Anna Dominiczak, Scottish Government’s Chief Scientist for Health, emphasizes the partnership's role in creating a more sustainable healthcare system.'
+
+This section describes covid 19 national notification digital tracing service summary:
+ 'The National Notification and Digital Tracing Service was developed at pace to provide COVID-19 test result notifications using secure integrations with NHS systems. It allowed over 2 million people to access their test results and share contact details for contact tracing efforts, resulting in 75% of self-reporting within an hour of receiving positive results.'
+
+This section describes digital health care innovation centre sign deal for lenus health platform summary:
+ 'The Lenus health platform enables secure data exchange between patients and clinical teams, reducing the need for face-to-face appointments and supporting remote condition management. Adhering to FHIR and SNOMED standards, it integrates with primary and secondary care systems while maintaining patient control over data and consent. The open architecture facilitates third-party innovation through a sandbox environment and developer portal.'
+
+This section describes evaluation of ai risk scores in copd opens to england summary:
+ 'NHSX-funded Scottish AI project expanding to English sites in January 2022, focusing on stratifying COPD patients' risk of flare-ups, hospital admission, and mortality using machine learning models. COPD is projected to become the third leading cause of death worldwide by 2030, and currently causes one in eight emergency hospital admissions in the UK. The priority is to reduce disease progression and prevent unscheduled care, especially during the pandemic. NHS Scotland recently started rolling out the COPD service across major urban areas for at-home management and "always-on" triage. The new year offers an opportunity to validate and adopt machine learning models for clinically actionable risk scores, elective care targets, and achieving NHS long-term plan aims.'
+
+This section describes how lenus services lower nhs emissions summary:
+ 'The NHS, as the largest UK employer and significant carbon emitter, is committed to achieving net zero emissions by 2040. Progress has been made in reducing emissions through virtual care models and remote monitoring. Virtual consultations can reduce travel-related emissions, while remote monitoring can prevent hospital admissions and reduce medication usage. Digital service models are a transformative approach to healthcare delivery, improving access to outpatient care, reducing occupied bed days, and Travel-related emissions.'
+
+This section describes how proactive pathway automation will build system resilience summary:
+ 'The NHS is experiencing its worst winter in a decade with record-breaking A&E waits, ambulance delays, and waiting lists over 7 million people. Long-term conditions (LTCs) like heart failure, COPD, asthma, diabetes, and kidney disease, affecting around 15 million people in England, are a significant economic burden and cause for emergency admissions and bed occupancy. To deliver greater value, there is a need to invest more in technology-driven, integrated care models for multimorbid patients and automate decision-making processes using AI across the patient pathway.'
+
+This section describes hull launches lenus virtual ward and remote monitoring services in england summary:
+ 'Hull University Teaching Hospitals NHS Trust (HUTH) will be the first in England to implement Lenus Health's technology for managing COPD patients at home through virtual wards and remote monitoring. This approach aims to free up hospital beds, reduce admissions, and offer personalized care. The service has shown promising results in clinical trials by NHS Greater Glasgow and Clyde. Lenus Health co-designed the service to improve access to care for those with socioeconomic challenges. The SBRI award supports this partnership.'
+
+This section describes innovation in digital health a road of incremental improvements summary:
+ 'The NHS is experiencing its worst winter crisis in a decade with record-breaking wait times and waiting lists exceeding 7 million people. Long-term conditions (LTCs) like heart failure, COPD, asthma, diabetes, and kidney disease account for the majority of emergency admissions and bed days. The cost of caring for LTC patients is increasing, with healthcare accounting for around 14% of the UK's GDP. Technological advancements such as intelligent models of care, proactive pathway automation, and digital biomarkers can help address this issue by providing continuous monitoring and anticipating patient deterioration. The focus should shift from specialised, episodic care to proactive, integrated, and preventive care for chronic conditions to improve outcomes and address health inequalities.'
+
+This section describes innovative digital dermatology service to be scaled up across scotland summary:
+ 'Edinburgh-based Storm ID's Lenus Health Platform enables virtual dermatology appointments for Scottish patients with skin conditions. Patients register, submit images and answers, which are assessed remotely by dermatologists via secure messaging. Many cases can be managed without further action. The service offers convenience, saves travel time, and is valuable during COVID-19. Supported by the Modernising Patient Pathways Programme, Scottish Government and NHS National Services Scotland.'
+
+This section describes lenus copd service featured on bbc news summary:
+ 'NHS Greater Glasgow and Clyde's COPD care transformation using Lenus service highlighted as national exemplar, reducing hospital admissions and improving self-management. Chronic lung disease third biggest killer in UK, costing £2bn annually with 1 in 8 emergency hospital admissions. Lenus Health's digital tools crucial to reducing admissions, featured on BBC News. Supported self-management approach demonstrated successful at NHS GGC. Innovation and collaboration key to healthcare system change.'
+
+This section describes lenus copd service shortlisted for the 2023 hsj digital awards summary:
+ 'Lenus Health and NHS Greater Glasgow and Clyde's DYNAMIC project for transforming COPD care with data and predictive AI has been shortlisted for an HSJ Digital Award under the category of Optimising Clinical Pathways Through Digital. The project, which involves developing digital tools to improve patient experience and reduce hospital admissions, was recognized for its ambitious goals, positive outcomes, value, involvement, and potential for replication. COPD affects over 1.2 million people in the UK and is the second leading cause of emergency hospital admission. The team, led by Dr Chris Carlin and Paul McGinness, has successfully evaluated the service with sustained use and reduced admissions, and scaled it up to support 500 patients with COPD. The predictive AI models developed as part of the project have been trialled and found to have a positive impact on both patients and hospital teams.'
+
+This section describes lenus digital service for early heart failure diagnosis shortlisted for innovate award summary:
+ 'The OPERA project, a collaboration between Lenus Health, AstraZeneca UK, NHS Greater Glasgow and Clyde, University of Glasgow, and West of Scotland Innovation teams, is a finalist in the 'Outstanding Collaboration with Industry' category of the Innovate Awards. The project reduced waiting times for heart failure diagnosis from 12 months to under six weeks and is being considered for national rollout in Scotland. Winners of the awards, which recognize innovative projects across 10 categories, will be announced on September 29, 2022.'
+
+This section describes lenus health and us2 ai join forces to automate the fight against heart disease summary:
+ 'Lenus Health and Us2.ai partnership aims to reduce heart failure diagnostic wait times in the NHS through integration of Us2.ai's CE marked echocardiogram viewing tools into Lenus platform. Us2.ai processes echo reports with zero clicks in under two minutes, automating diagnosis and making long wait times obsolete. Pilot study at NHS Louisa Jordan reduced wait time from over a year to six weeks using Lenus Heart Failure Diagnostic service. Opportunity to bring AI tools to community settings for safe diagnostic testing and management of chronic diseases like heart failure.'
+
+This section describes lenus health appoints jack bruck as chief financial officer summary:
+ 'Jack Bruck, a seasoned finance professional with experience at KPMG and multiple tech companies, has joined Lenus Health as CFO. Bruck brings global technology portfolio and financial management expertise to Lenus Health, having worked on investor relations and shareholder initiatives. He is excited to join Lenus Health's innovative team and contribute to its growth and success in the digital health solutions marketplace.'
+
+This section describes lenus health developed by storm id awarded artificial intelligence in health and care award by uk government for innovative lenus copd service summary:
+ 'NHS Greater Glasgow and Clyde, in collaboration with several organizations, launched a digital health service using Lenus Health technology for remote patient monitoring and self-management, supported by clinicians. The partnership includes NHSX, Accelerated Access Collaborative, Digital Health and Care Innovation Centre, and Storm ID.'
+
+This section describes lenus health joins landmark partnership to improve scotland s health summary:
+ 'A collaboration between NHS Scotland, academia, and industry partners, including AstraZeneca UK and Lenus Health, has signed an MOU to improve healthcare through large-scale programs focusing on long term conditions and reducing waiting times. The partnership aims to change clinical practice and expand clinical research, with a goal of enrolling patients in studies and trials for new pathways and therapies. The first project is the OPERA digital patient pathway, which reduced heart failure diagnostic tests waitlist from over 12 months to 6 weeks during a pilot.'
+
+This section describes lenus health named healthtech startup of the year at scotland finals summary:
+ 'Edinburgh's Lenus Health named Scotland's Medtech and Healthtech StartUp of the Year at the National Series Awards, with over 2500 applications and 23 awards given out. Judged by successful entrepreneurs and their supporters. Craig Turpie, co-founder of Lenus Health, expressed delight and hoped for increased awareness. Dylan stated the first year's reception was exceptional and congratulated all category winners. '
+
+This section describes lenus health named supplier on g cloud 13 framework summary:
+ 'G-Cloud 13, launched on 9 November 2022, provides UK public sector with cloud hosting, software, and support services. Lenus Health's services are listed under Lots 1-3 for direct award. CCS supported public sector in achieving commercial benefits worth £2.8bn in 2021/22.'
+
+This section describes lenus health named top uk innovator in support of a greener nhs summary:
+ 'Digital Leaders unveiled the Net Zero 50 List, recognizing Lenus Health as a top innovator in the Net Zero Public Sector category for delivering sustainable digital solutions to the NHS while reducing carbon emissions. The list highlights individuals, organizations, and initiatives leading net zero transformation across sectors. A People's Choice Vote is open, allowing the public to recognize their favorite finalist at the November 16 House of Lords event.'
+
+This section describes lenus health offers engineering opportunity and insight at level up summary:
+ 'Lenus engineering team will share technical content about their work and experiences, including technology deep dives and "A Day in the life of..." diaries. They aim to provide culturally insightful content and hope to inspire innovation in their field. As a spin-off from a digital consultancy, they specialize in Backend and Frontend technologies like .NET and Javascript. They seek passionate individuals to contribute to engineering in the digital healthcare industry and have built a health data exchange platform, integrated activity monitoring devices, and created patient and clinician facing products.'
+
+This section describes lenus health s lead data scientist on the importance of explainable ai summary:
+ 'Artificial intelligence and machine learning in clinical settings require model explainability for trust and safety. Confounding variables and biases are major challenges in developing models for clinical decision making. Asthma patients with pneumonia, for instance, were once incorrectly predicted to have greater survival probability due to treatment policy differences. Biases can also affect under-represented groups in health prediction models, resulting from ground truth diagnosis labeling and model training errors. Lenus Engineering aims to investigate why models make decisions and innovate in explainable AI, focusing on fairness, ethics, and bias reduction.'
+
+This section describes lenus health seeks non executive chair of the board to drive growth summary:
+ 'Lenus Health, a healthcare tech company revolutionizing disease management with AI insights and digital tools, seeks an experienced Non-Executive Chair for strategic leadership and growth. The role demands executive leadership and governance experience, preferably in healthcare sector, exceptional communication skills, strategic thinking, and ethical commitment. Lenus Health aims to streamline care coordination, improve health outcomes, and enhance service efficiencies globally.'
+
+This section describes lenus health shortlisted for dl100 ai innovation of the year summary:
+ 'Scottish health tech start-up Lenus Health named in Digital Leaders 100 list for digital transformation achievements. The list recognizes 100 people and organizations from across the UK. Scotland, North West, and Midlands have strong representation this year, outside London and South East. Public can vote for favorites across award categories to pick a people's choice.'
+
+This section describes lenus health shortlisted for startup awards national series summary:
+ 'Edinburgh's Lenus Health shortlisted as one of Scotland's most exciting new businesses in Startup Awards National Series with stiff competition and over 2500 applications. Co-founded by Paul McGinness, Lenus uses data and AI for long term conditions. Supported nationally by BT, EY, Dell & Intel. Programme celebrates entrepreneurs generating economic prosperity and innovation.'
+
+This section describes lenus health takes home industry collaboration award at digital health care awards scotland summary:
+ 'The 5th annual Holyrood Connect ceremony honored Lenus Health with the Industry Collaboration Award for their partnerships with public sector organizations, marking their second digital health accolade in 6 months.'
+
+This section describes lenus health technology wins hsj award with nhs scotland partners digitising patient pathways initiative summary:
+ 'The HSJ Awards honored 23 winning teams from 204 finalists for UK healthcare excellence last night. NHS Scotland's collaboration with Lenus Health's appointments service won for 'Digitising Patient Pathways Initiative'. Their digital dermatology assessment using Lenus technology showed increased efficiency, high patient-satisfaction, and flexibility, saving thousands of clinical hours in other specialties. Lenus Health praised NHS Scotland's achievement and emphasized the importance of digitally-supported pathways enabling more and better care.'
+
+This section describes lenus health to participate in slush 2022 summary:
+ 'Lenus Health partners with AstraZeneca at Slush 2022 to showcase use of data and AI in long-term condition diagnosis and management. Lenus Health's co-founder and CEO, Paul McGinness, will speak at the Healthcare Innovators Lounge about reducing diagnostic waiting lists and hospital admissions using the Lenus platform. AstraZeneca UK Head of External Scientific Engagement, Binder Fagura, is also attending and emphasizes the partnership's goal to reduce healthcare inequity in the UK and improve patient outcomes.'
+
+This section describes lenus health to support launch of england s first community based heart and lung screening hub summary:
+ 'AstraZeneca grants funding for Everton Football Club's heart and lung screening hub at The People's Place, providing early diagnosis and treatment for chronic breathlessness, with a focus on heart failure and COPD. The hub will offer community-based screenings, raise awareness, and work with leading medical technology providers and charities. The project is the first of its kind in England, supported by Liverpool University Hospitals NHS Foundation Trust.'
+
+This section describes lenus recognised in department for international trade first 100 digital health playbook summary:
+ 'The UK Department for International Trade launched the 'First 100' playbook, recognizing digital health companies committed to export and expansion. Lenus was included due to its patient-generated data combination with healthcare data, enabling AI applications and modernized care pathways through EHR integration and clinical dashboards.'
+
+This section describes lenus shares new evidence for an integrated virtual ward approach summary:
+ 'The Lenus COPD Service, a remote monitoring program for high-risk COPD patients, has been shown to reduce hospital admissions and bed days in Scotland, according to an NHSGGC clinical trial. The service aggregates patient data into a cloud-based clinical dashboard for early intervention and prevention of unnecessary hospitalizations. AI-derived risk prediction scores are being trialed to further enhance proactive management. COPD disproportionately affects lower socioeconomic communities, making its improved management important for reducing health inequalities. ICSs are encouraged to consider virtual wards as part of their plans to address capacity issues and prevent respiratory-related admissions.'
+
+This section describes lenus stratify selected for the innovative devices access pathway idap pilot programme summary:
+ 'Lenus Health's AI models and insights app for COPD assessment selected for IDAP pilot. Eight technologies chosen for bespoke support from MHRA, NHSE, NICE, OLS, SHTG, and HTW. Lenus Stratify identifies COPD patients at risk of hospital admission for prioritized treatment. Goal is to shift care model from reactive to proactive intervention.'
+
+This section describes looming winter pressures eased by targeted ai initiatives summary:
+ 'NHS faces challenging winter due to respiratory illnesses, including COVID-19, flu, and RSV. Proactive measures, such as using AI for predictive analysis and optimizing medication reviews, are crucial to prevent hospital admissions. Chronic Obstructive Pulmonary Disease (COPD) trials in Scotland's largest health board showed success in identifying patients from deprived areas and improving care delivery. Virtual wards help increase capacity, but predictive AI can shift approach from reactive to proactive and save lives and resources. Adopting advanced digital solutions is encouraged due to financial incentives.'
+
+This section describes major opportunities for ai to aid in healthcare for chronic conditions summary:
+ 'With over 17 million people living with chronic conditions in the UK, contributing to 70% of inpatient bed occupancy, demand is outpacing supply due to an aging population. Transformative models of care using data and digital tools, including AI, are needed to address this challenge. AI can lead to earlier intervention, more accurate diagnoses, expedited drug discovery, and automated administrative tasks. Ethical considerations and safeguards must be prioritized in the use of AI.'
+
+This section describes minister of state andrew stephenson visits lenus health to discuss ai in healthcare summary:
+ 'Minister of State Andrew Stephenson visited Lenus Health's Edinburgh office on January 5th to discuss AI's role in healthcare, focusing on chronic conditions and digital diagnostics. Discussions highlighted Lenus Health's AI capabilities in enhancing patient pathways, outcomes, and productivity for COPD and other chronic conditions. Both parties expressed commitment to utilizing innovative tech for improved healthcare delivery and better patient outcomes.'
+
+This section describes new partnership aims to improve emergency cardiac care using artificial intelligence in scotland summary:
+ 'The University of Edinburgh, Edinburgh Napier University, NHS Lothian, and Lenus Health have collaborated to create a digital health pathway aimed at preventing reattendances to Emergency Departments for chest pain or breathlessness patients. The project utilizes DataLoch's secure healthcare data, Edinburgh Napier University's expertise in digital co-design, and Lenus Health's disease management platform. This collaboration aims to prevent one in five of the estimated 30-day reattendances in the UK, saving NHS resources and providing effective treatment earlier.'
+
+This section describes new respiratory monitoring service for covid 19 patients summary:
+ 'Storm ID, NHS Greater Glasgow and Clyde, and Altair Medical are collaborating to create a remote respiratory monitoring solution for COVID-19 patients called CARP. Using Altair's wearable sensor and algorithms alongside Storm ID's Lenus Health Platform, they will gather de-identified patient data and perform machine-learning analyses to develop risk predictive models. If effective, CARP will enable real-time identification and triaging of at-risk patients. The project is funded by the University of Glasgow under their Rapid Research in COVID-19 programme.'
+
+This section describes nhs highland launches respiratory virtual ward with lenus health summary:
+ 'NHS Highland launched a new respiratory virtual ward service using Lenus Health's technology for remote monitoring of patients with respiratory conditions at home. Up to 100 patients will benefit from this service, which enables real-time data sharing between patients and healthcare teams, encourages physical activity, and supports more responsive care. The service builds on the Dynamic Scot project in NHS Greater Glasgow and Clyde and is part of Lenus Health's focus on transforming chronic disease care pathways with their interoperable platform.'
+
+This section describes resmed invests in lenus health recent winner of nhsx ai health and care award summary:
+ 'Lenus Health, a company established in 2020 with a minority investment from ResMed, develops a COPD monitoring service using wearables and AI. This technology, featuring user-centric design and high patient engagement, has shown to reduce emergency room admissions by 28% and hospital bed days per patient per year up to 38%. ResMed also offers digitally connected solutions for respiratory diseases, including a sensor-and-app solution that encourages medication adherence and reduces emergency visits by 53%.'
+
+This section describes storm id nhs greater glasgow clyde and kensci combat copd summary:
+ 'Two parties received £750,000 from Innovate UK to create a COPD care pathway using AI and remote monitoring. In the UK, 1.2 million people have COPD, leading to one in eight hospital admissions. This project aims to reduce one admission per year for high-risk patients, potentially saving the NHS £1.4bn.'
+
+This section describes study finds lenus digital tools cut time spent in hospital in half for lung disease patients summary:
+ 'NHS researchers found that using a digital support service for patients with high-risk COPD led to a reduction in hospital days from 15 to 7 per year.'
+'The study, co-led by NHS GGC consultant in emergency medicine Professor David Lowe and Lenus Health, included a patient app, clinician dashboard, and support website.'
+'Engagement with the digital service was consistent across the population with COPD prevalence.'
+'Patients found the service useful and easily adapted to using it regularly.'
+
+This section describes the future of remote patient monitoring summary:
+ 'Hull University Teaching Hospitals NHS Trust (HUTH) will be the first in England to use Edinburgh-based Lenus Health's technology for managing COPD patients at home, freeing up hospital beds. This approach, called a "virtual ward," uses regular interactions with care teams and remote monitoring. The service aims to reduce unplanned admissions, especially in deprived communities where COPD prevalence is high. HUTH was inspired by successful trials in Scotland, and Lenus received funding for the partnership.'
+
+This section describes the three challenges for digital health in 2017 and how we solved them summary:
+ 'The NHS is experiencing its worst winter in a decade with record-breaking A&E waits, ambulance delays, and waiting lists over 7 million people. Long-term conditions (LTCs) affect around 15 million people in England, with heart failure, COPD, asthma, diabetes, and kidney disease being the most common. Delivering value in current healthcare systems is a challenge, leading to increased spending. Technology, data structuring, and AI can transform expensive services into affordable ones, and proactive pathways are essential for managing multimorbid patients. The UK's population aged 65 and above is projected to grow significantly, necessitating intelligent models of care and automation. Shifting resources towards preventive care pathways for chronic conditions can address capacity issues and health inequalities.'
+
+This section describes what is pharmacovigilance and why does it matter summary:
+ 'Pharmacovigilance is the science of drug safety, involving detection, assessment, understanding, and prevention of adverse events. It ensures benefits of drugs outweigh risks throughout their lifecycle. An adverse event is a negative reaction to a drug, with serious cases causing hospitalization or disability. Pharmacovigilance became crucial after the thalidomide disaster in the 1960s. Digital technologies and patient-generated health data offer opportunities for more efficient pharmacovigilance programs.'
+
+This section describes what is preventive healthcare summary:
+ 'The NHS is experiencing its worst winter crisis in the last decade with record-breaking A&E waits, ambulance delays, and waiting lists over 7 million people. Long-term conditions (LTCs) such as heart failure, COPD, asthma, diabetes, and kidney disease are major issues, accounting for over 70% of inpatient bed days. The cost of caring for LTC patients is increasing, and technology and AI can help by transforming expensive services into affordable ones and providing intelligent, proactive care. A shift from specialised, episodic care to integrated, preventative care for chronic conditions is necessary to address capacity issues and health inequalities.'
+
+This section describes world s first predictive ai for direct care of patients with copd deployed in uk hospital summary:
+ 'A 12-month feasibility study called DYNAMIC-AI was launched to explore how AI can be used in live point-of-care workflows for COPD patients in NHS Greater Glasgow and Clyde. The project uses machine learning models to identify high-risk COPD patients, allowing proactive interventions to improve outcomes and reduce emergency hospital admissions. It is the first operationalised predictive AI application in routine direct care of chronic conditions, with a goal of addressing equality issues and improving access to healthcare for socio-economically disadvantaged areas.'
+
+With the above in mind, explain to me step by step the most important
+    projects, milestones, activities and outcomes the company has achieved over the years.
+    Be precise. Avoid repetition. Use correct grammar. Return a summary that flows,
+    to help the reader get a global overview of the company's achievements and focus.The following paragraphs summarise the company's activity since 2018.
+    The company has been exploring aspects of healthcare, ways to improve patient outcomes,
+    prevent and diagnose illness in a timely manner.
+    Here is how the company has explored the British healthcare space:
+
+
+    This section describes ai analysis integrated by lenus health holds potential to speed detection of heart failure summary:
+ 'New research presented at the ESC Conference shows AI technology interpreting heart ultrasound images is as effective as human operators, reducing diagnosis time significantly. Heart failure diagnosis could be improved with early detection, as it affects over a million people in the UK. The OPERA study, a collaboration between Glasgow University, AstraZeneca, Lenus Health and NHS, demonstrates potential of AI to make heart failure diagnosis faster and more accessible through the SYMPHONY global study.'
+
+This section describes commitment to health partnership extended summary:
+ 'The Health Innovation and Transformation Partnership between NHS Scotland, University of Glasgow, AstraZeneca UK, Lenus Health, and NHS Greater Glasgow & Clyde has been extended for three more years. The collaboration aims to improve patient care, employ new technologies and medicines, and address health inequalities through large-scale programs. Projects include OPERA, an early heart failure identification initiative. Dame Anna Dominiczak, Scottish Government’s Chief Scientist for Health, emphasizes the partnership's role in creating a more sustainable healthcare system.' 'The Health Innovation and Transformation Partnership between NHS Scotland and academic/industry partners has been extended for three years. The collaboration includes NHS Golden Jubilee's national Centre for Sustainable Delivery, NHS Greater Glasgow & Clyde, University of Glasgow, AstraZeneca UK, and Lenus Health. The aim is to improve health care through large-scale programs and clinical research, focusing on various points in the patient journey and chronic disease management. Projects include OPERA for heart failure detection.' 'Dame Anna Dominiczak, Scottish Government’s Chief Scientist for Health, emphasizes the partnership's potential to enhance patient care, employ new technologies and medicines, and address health inequalities.' 'The national Centre for Sustainable Delivery (CfSD) focuses on innovation, collaboration, and clinical leadership to make Scotland's healthcare system the best in the world. NHS Golden Jubilee delivers care through collaboration and hosts CfSD. NHS Greater Glasgow & Clyde is Scotland's largest NHS organization, employing around 39,000 staff. AstraZeneca is a global biopharmaceutical company focusing on prescription medicines. Lenus Health deploys digital tools and AI to transform diagnosis and chronic condition management.'
+
+This section describes covid 19 national notification digital tracing service summary:
+ 'The National Notification and Digital Tracing Service was developed at pace to provide COVID-19 test result notifications using secure integrations with NHS systems. It allowed over 2 million people to access their test results and share contact details for contact tracing efforts, resulting in 75% of self-reporting within an hour of receiving positive results.'
+
+This section describes digital health care innovation centre sign deal for lenus health platform summary:
+ 'The Lenus health platform enables secure data exchange between patients and clinical teams, reducing the need for face-to-face appointments and supporting remote condition management. Adhering to FHIR and SNOMED standards, it integrates with primary and secondary care systems while maintaining patient control over data and consent. The open architecture facilitates third-party innovation through a sandbox environment and developer portal.'
+
+This section describes evaluation of ai risk scores in copd opens to england summary:
+ 'NHSX-funded Scottish AI project expanding to English sites in January 2022, focusing on stratifying COPD patients' risk of flare-ups, hospital admission, and mortality using machine learning models. COPD is projected to become the third leading cause of death worldwide by 2030, and currently causes one in eight emergency hospital admissions in the UK. The priority is to reduce disease progression and prevent unscheduled care, especially during the pandemic. NHS Scotland recently started rolling out the COPD service across major urban areas for at-home management and "always-on" triage. The new year offers an opportunity to validate and adopt machine learning models for clinically actionable risk scores, elective care targets, and achieving NHS long-term plan aims.'
+
+This section describes how lenus services lower nhs emissions summary:
+ 'The NHS, as the largest UK employer and significant carbon emitter, is committed to achieving net zero emissions by 2040. Progress has been made in reducing emissions through virtual care models and remote monitoring. Virtual consultations can reduce travel-related emissions, while remote monitoring can prevent hospital admissions and reduce medication usage. Digital service models are a transformative approach to healthcare delivery, improving access to outpatient care, reducing occupied bed days, and Travel-related emissions.'
+
+This section describes how proactive pathway automation will build system resilience summary:
+ 'The NHS is experiencing its worst winter in a decade with record-breaking A&E waits, ambulance delays, and waiting lists over 7 million people. Long-term conditions (LTCs) like heart failure, COPD, asthma, diabetes, and kidney disease, affecting around 15 million people in England, are a significant economic burden and cause for emergency admissions and bed occupancy. To deliver greater value, there is a need to invest more in technology-driven, integrated care models for multimorbid patients and automate decision-making processes using AI across the patient pathway.'
+
+This section describes hull launches lenus virtual ward and remote monitoring services in england summary:
+ 'Hull University Teaching Hospitals NHS Trust (HUTH) will be the first in England to implement Lenus Health's technology for managing COPD patients at home through virtual wards and remote monitoring. This approach aims to free up hospital beds, reduce admissions, and offer personalized care. The service has shown promising results in clinical trials by NHS Greater Glasgow and Clyde. Lenus Health co-designed the service to improve access to care for those with socioeconomic challenges. The SBRI award supports this partnership.'
+
+This section describes innovation in digital health a road of incremental improvements summary:
+ 'The NHS is experiencing its worst winter crisis in a decade with record-breaking wait times and waiting lists exceeding 7 million people. Long-term conditions (LTCs) like heart failure, COPD, asthma, diabetes, and kidney disease account for the majority of emergency admissions and bed days. The cost of caring for LTC patients is increasing, with healthcare accounting for around 14% of the UK's GDP. Technological advancements such as intelligent models of care, proactive pathway automation, and digital biomarkers can help address this issue by providing continuous monitoring and anticipating patient deterioration. The focus should shift from specialised, episodic care to proactive, integrated, and preventive care for chronic conditions to improve outcomes and address health inequalities.'
+
+This section describes innovative digital dermatology service to be scaled up across scotland summary:
+ 'Edinburgh-based Storm ID's Lenus Health Platform enables virtual dermatology appointments for Scottish patients with skin conditions. Patients register, submit images and answers, which are assessed remotely by dermatologists via secure messaging. Many cases can be managed without further action. The service offers convenience, saves travel time, and is valuable during COVID-19. Supported by the Modernising Patient Pathways Programme, Scottish Government and NHS National Services Scotland.'
+
+This section describes lenus copd service featured on bbc news summary:
+ 'NHS Greater Glasgow and Clyde's COPD care transformation using Lenus service highlighted as national exemplar, reducing hospital admissions and improving self-management. Chronic lung disease third biggest killer in UK, costing £2bn annually with 1 in 8 emergency hospital admissions. Lenus Health's digital tools crucial to reducing admissions, featured on BBC News. Supported self-management approach demonstrated successful at NHS GGC. Innovation and collaboration key to healthcare system change.'
+
+This section describes lenus copd service shortlisted for the 2023 hsj digital awards summary:
+ 'Lenus Health and NHS Greater Glasgow and Clyde's DYNAMIC project for transforming COPD care with data and predictive AI has been shortlisted for an HSJ Digital Award under the category of Optimising Clinical Pathways Through Digital. The project, which involves developing digital tools to improve patient experience and reduce hospital admissions, was recognized for its ambitious goals, positive outcomes, value, involvement, and potential for replication. COPD affects over 1.2 million people in the UK and is the second leading cause of emergency hospital admission. The team, led by Dr Chris Carlin and Paul McGinness, has successfully evaluated the service with sustained use and reduced admissions, and scaled it up to support 500 patients with COPD. The predictive AI models developed as part of the project have been trialled and found to have a positive impact on both patients and hospital teams.'
+
+This section describes lenus digital service for early heart failure diagnosis shortlisted for innovate award summary:
+ 'The OPERA project, a collaboration between Lenus Health, AstraZeneca UK, NHS Greater Glasgow and Clyde, University of Glasgow, and West of Scotland Innovation teams, is a finalist in the 'Outstanding Collaboration with Industry' category of the Innovate Awards. The project reduced waiting times for heart failure diagnosis from 12 months to under six weeks and is being considered for national rollout in Scotland. Winners of the awards, which recognize innovative projects across 10 categories, will be announced on September 29, 2022.'
+
+This section describes lenus health and us2 ai join forces to automate the fight against heart disease summary:
+ 'Lenus Health and Us2.ai partnership aims to reduce heart failure diagnostic wait times in the NHS through integration of Us2.ai's CE marked echocardiogram viewing tools into Lenus platform. Us2.ai processes echo reports with zero clicks in under two minutes, automating diagnosis and making long wait times obsolete. Pilot study at NHS Louisa Jordan reduced wait time from over a year to six weeks using Lenus Heart Failure Diagnostic service. Opportunity to bring AI tools to community settings for safe diagnostic testing and management of chronic diseases like heart failure.'
+
+This section describes lenus health appoints jack bruck as chief financial officer summary:
+ 'Jack Bruck, a seasoned finance professional with experience at KPMG and multiple tech companies, has joined Lenus Health as CFO. Bruck brings global technology portfolio and financial management expertise to Lenus Health, having worked on investor relations and shareholder initiatives. He is excited to join Lenus Health's innovative team and contribute to its growth and success in the digital health solutions marketplace.'
+
+This section describes lenus health developed by storm id awarded artificial intelligence in health and care award by uk government for innovative lenus copd service summary:
+ 'NHS Greater Glasgow and Clyde, in collaboration with several organizations, launched a digital health service using Lenus Health technology for remote patient monitoring and self-management, supported by clinicians. The partnership includes NHSX, Accelerated Access Collaborative, Digital Health and Care Innovation Centre, and Storm ID.'
+
+This section describes lenus health joins landmark partnership to improve scotland s health summary:
+ 'A collaboration between NHS Scotland, academia, and industry partners, including AstraZeneca UK and Lenus Health, has signed an MOU to improve healthcare through large-scale programs focusing on long term conditions and reducing waiting times. The partnership aims to change clinical practice and expand clinical research, with a goal of enrolling patients in studies and trials for new pathways and therapies. The first project is the OPERA digital patient pathway, which reduced heart failure diagnostic tests waitlist from over 12 months to 6 weeks during a pilot.'
+
+This section describes lenus health named healthtech startup of the year at scotland finals summary:
+ 'Edinburgh's Lenus Health named Scotland's Medtech and Healthtech StartUp of the Year at the National Series Awards, with over 2500 applications and 23 awards given out. Judged by successful entrepreneurs and their supporters. Craig Turpie, co-founder of Lenus Health, expressed delight and hoped for increased awareness. Dylan stated the first year's reception was exceptional and congratulated all category winners. '
+
+This section describes lenus health named supplier on g cloud 13 framework summary:
+ 'G-Cloud 13, launched on 9 November 2022, provides UK public sector with cloud hosting, software, and support services. Lenus Health's services are listed under Lots 1-3 for direct award. CCS supported public sector in achieving commercial benefits worth £2.8bn in 2021/22.'
+
+This section describes lenus health named top uk innovator in support of a greener nhs summary:
+ 'Digital Leaders unveiled the Net Zero 50 List, recognizing Lenus Health as a top innovator in the Net Zero Public Sector category for delivering sustainable digital solutions to the NHS while reducing carbon emissions. The list highlights individuals, organizations, and initiatives leading net zero transformation across sectors. A People's Choice Vote is open, allowing the public to recognize their favorite finalist at the November 16 House of Lords event.'
+
+This section describes lenus health offers engineering opportunity and insight at level up summary:
+ 'Lenus engineering team will share technical content about their work and experiences, including technology deep dives and "A Day in the life of..." diaries. They aim to provide culturally insightful content and hope to inspire innovation in their field. As a spin-off from a digital consultancy, they specialize in Backend and Frontend technologies like .NET and Javascript. They seek passionate individuals to contribute to engineering in the digital healthcare industry and have built a health data exchange platform, integrated activity monitoring devices, and created patient and clinician facing products.'
+
+This section describes lenus health s lead data scientist on the importance of explainable ai summary:
+ 'Artificial intelligence and machine learning in clinical settings require model explainability for trust and safety. Confounding variables and biases are major challenges in developing models for clinical decision making. Asthma patients with pneumonia, for instance, were once incorrectly predicted to have greater survival probability due to treatment policy differences. Biases can also affect under-represented groups in health prediction models, resulting from ground truth diagnosis labeling and model training errors. Lenus Engineering aims to investigate why models make decisions and innovate in explainable AI, focusing on fairness, ethics, and bias reduction.'
+
+This section describes lenus health seeks non executive chair of the board to drive growth summary:
+ 'Lenus Health, a healthcare tech company revolutionizing disease management with AI insights and digital tools, seeks an experienced Non-Executive Chair for strategic leadership and growth. The role demands executive leadership and governance experience, preferably in healthcare sector, exceptional communication skills, strategic thinking, and ethical commitment. Lenus Health aims to streamline care coordination, improve health outcomes, and enhance service efficiencies globally.'
+
+This section describes lenus health shortlisted for dl100 ai innovation of the year summary:
+ 'Scottish health tech start-up Lenus Health named in Digital Leaders 100 list for digital transformation achievements. The list recognizes 100 people and organizations from across the UK. Scotland, North West, and Midlands have strong representation this year, outside London and South East. Public can vote for favorites across award categories to pick a people's choice.'
+
+This section describes lenus health shortlisted for startup awards national series summary:
+ 'Edinburgh's Lenus Health shortlisted as one of Scotland's most exciting new businesses in Startup Awards National Series with stiff competition and over 2500 applications. Co-founded by Paul McGinness, Lenus uses data and AI for long term conditions. Supported nationally by BT, EY, Dell & Intel. Programme celebrates entrepreneurs generating economic prosperity and innovation.'
+
+This section describes lenus health takes home industry collaboration award at digital health care awards scotland summary:
+ 'The 5th annual Holyrood Connect ceremony honored Lenus Health with the Industry Collaboration Award for their partnerships with public sector organizations, marking their second digital health accolade in 6 months.'
+
+This section describes lenus health technology wins hsj award with nhs scotland partners digitising patient pathways initiative summary:
+ 'The HSJ Awards honored 23 winning teams from 204 finalists for UK healthcare excellence last night. NHS Scotland's collaboration with Lenus Health's appointments service won for 'Digitising Patient Pathways Initiative'. Their digital dermatology assessment using Lenus technology showed increased efficiency, high patient-satisfaction, and flexibility, saving thousands of clinical hours in other specialties. Lenus Health praised NHS Scotland's achievement and emphasized the importance of digitally-supported pathways enabling more and better care.'
+
+This section describes lenus health to participate in slush 2022 summary:
+ 'Lenus Health partners with AstraZeneca at Slush 2022 to showcase use of data and AI in long-term condition diagnosis and management. Lenus Health's co-founder and CEO, Paul McGinness, will speak at the Healthcare Innovators Lounge about reducing diagnostic waiting lists and hospital admissions using the Lenus platform. AstraZeneca UK Head of External Scientific Engagement, Binder Fagura, is also attending and emphasizes the partnership's goal to reduce healthcare inequity in the UK and improve patient outcomes.'
+
+This section describes lenus health to support launch of england s first community based heart and lung screening hub summary:
+ 'AstraZeneca grants funding for Everton Football Club's heart and lung screening hub at The People's Place, providing early diagnosis and treatment for chronic breathlessness, with a focus on heart failure and COPD. The hub will offer community-based screenings, raise awareness, and work with leading medical technology providers and charities. The project is the first of its kind in England, supported by Liverpool University Hospitals NHS Foundation Trust.'
+
+This section describes lenus recognised in department for international trade first 100 digital health playbook summary:
+ 'The UK Department for International Trade launched the 'First 100' playbook, recognizing digital health companies committed to export and expansion. Lenus was included due to its patient-generated data combination with healthcare data, enabling AI applications and modernized care pathways through EHR integration and clinical dashboards.'
+
+This section describes lenus shares new evidence for an integrated virtual ward approach summary:
+ 'The Lenus COPD Service, a remote monitoring program for high-risk COPD patients, has been shown to reduce hospital admissions and bed days in Scotland, according to an NHSGGC clinical trial. The service aggregates patient data into a cloud-based clinical dashboard for early intervention and prevention of unnecessary hospitalizations. AI-derived risk prediction scores are being trialed to further enhance proactive management. COPD disproportionately affects lower socioeconomic communities, making its improved management important for reducing health inequalities. ICSs are encouraged to consider virtual wards as part of their plans to address capacity issues and prevent respiratory-related admissions.'
+
+This section describes lenus stratify selected for the innovative devices access pathway idap pilot programme summary:
+ 'Lenus Health's AI models and insights app for COPD assessment selected for IDAP pilot. Eight technologies chosen for bespoke support from MHRA, NHSE, NICE, OLS, SHTG, and HTW. Lenus Stratify identifies COPD patients at risk of hospital admission for prioritized treatment. Goal is to shift care model from reactive to proactive intervention.' 'Lenus Health's COPD assessment software, Lenus Stratify, selected for IDAP pilot pathway. Eight technologies chosen for support from MHRA, NHSE, NICE, OLS, SHTG, and HTW. Lenus Stratify uses machine learning models to identify COPD patients at risk of hospital admission for priority treatment. Goal is to shift care provision from reactive to proactive intervention. IDAP aims to improve patient access to medical devices with integrated regulatory and access pathway.'
+
+This section describes looming winter pressures eased by targeted ai initiatives summary:
+ 'NHS faces challenging winter due to respiratory illnesses, including COVID-19, flu, and RSV. Proactive measures, such as using AI for predictive analysis and optimizing medication reviews, are crucial to prevent hospital admissions. Chronic Obstructive Pulmonary Disease (COPD) trials in Scotland's largest health board showed success in identifying patients from deprived areas and improving care delivery. Virtual wards help increase capacity, but predictive AI can shift approach from reactive to proactive and save lives and resources. Adopting advanced digital solutions is encouraged due to financial incentives.'
+
+This section describes major opportunities for ai to aid in healthcare for chronic conditions summary:
+ 'With over 17 million people living with chronic conditions in the UK, contributing to 70% of inpatient bed occupancy, demand is outpacing supply due to an aging population. Transformative models of care using data and digital tools, including AI, are needed to address this challenge. AI can lead to earlier intervention, more accurate diagnoses, expedited drug discovery, and automated administrative tasks. Ethical considerations and safeguards must be prioritized in the use of AI.'
+
+This section describes merged_summaries:
+The following paragraphs summarise the company's activity since 2018.
+    The company has been exploring aspects of healthcare, ways to improve patient outcomes,
+    prevent and diagnose illness in a timely manner.
+    Here is how the company has explored the British healthcare space:
+
+
+    This section describes ai analysis integrated by lenus health holds potential to speed detection of heart failure summary:
+ 'New research presented at the ESC Conference shows AI technology interpreting heart ultrasound images is as effective as human operators, reducing diagnosis time significantly. Heart failure diagnosis could be improved with early detection, as it affects over a million people in the UK. The OPERA study, a collaboration between Glasgow University, AstraZeneca, Lenus Health and NHS, demonstrates potential of AI to make heart failure diagnosis faster and more accessible through the SYMPHONY global study.'
+
+This section describes commitment to health partnership extended summary:
+ 'The Health Innovation and Transformation Partnership between NHS Scotland, University of Glasgow, AstraZeneca UK, Lenus Health, and NHS Greater Glasgow & Clyde has been extended for three more years. The collaboration aims to improve patient care, employ new technologies and medicines, and address health inequalities through large-scale programs. Projects include OPERA, an early heart failure identification initiative. Dame Anna Dominiczak, Scottish Government’s Chief Scientist for Health, emphasizes the partnership's role in creating a more sustainable healthcare system.'
+
+This section describes covid 19 national notification digital tracing service summary:
+ 'The National Notification and Digital Tracing Service was developed at pace to provide COVID-19 test result notifications using secure integrations with NHS systems. It allowed over 2 million people to access their test results and share contact details for contact tracing efforts, resulting in 75% of self-reporting within an hour of receiving positive results.'
+
+This section describes digital health care innovation centre sign deal for lenus health platform summary:
+ 'The Lenus health platform enables secure data exchange between patients and clinical teams, reducing the need for face-to-face appointments and supporting remote condition management. Adhering to FHIR and SNOMED standards, it integrates with primary and secondary care systems while maintaining patient control over data and consent. The open architecture facilitates third-party innovation through a sandbox environment and developer portal.'
+
+This section describes evaluation of ai risk scores in copd opens to england summary:
+ 'NHSX-funded Scottish AI project expanding to English sites in January 2022, focusing on stratifying COPD patients' risk of flare-ups, hospital admission, and mortality using machine learning models. COPD is projected to become the third leading cause of death worldwide by 2030, and currently causes one in eight emergency hospital admissions in the UK. The priority is to reduce disease progression and prevent unscheduled care, especially during the pandemic. NHS Scotland recently started rolling out the COPD service across major urban areas for at-home management and "always-on" triage. The new year offers an opportunity to validate and adopt machine learning models for clinically actionable risk scores, elective care targets, and achieving NHS long-term plan aims.'
+
+This section describes how lenus services lower nhs emissions summary:
+ 'The NHS, as the largest UK employer and significant carbon emitter, is committed to achieving net zero emissions by 2040. Progress has been made in reducing emissions through virtual care models and remote monitoring. Virtual consultations can reduce travel-related emissions, while remote monitoring can prevent hospital admissions and reduce medication usage. Digital service models are a transformative approach to healthcare delivery, improving access to outpatient care, reducing occupied bed days, and Travel-related emissions.'
+
+This section describes how proactive pathway automation will build system resilience summary:
+ 'The NHS is experiencing its worst winter in a decade with record-breaking A&E waits, ambulance delays, and waiting lists over 7 million people. Long-term conditions (LTCs) like heart failure, COPD, asthma, diabetes, and kidney disease, affecting around 15 million people in England, are a significant economic burden and cause for emergency admissions and bed occupancy. To deliver greater value, there is a need to invest more in technology-driven, integrated care models for multimorbid patients and automate decision-making processes using AI across the patient pathway.'
+
+This section describes hull launches lenus virtual ward and remote monitoring services in england summary:
+ 'Hull University Teaching Hospitals NHS Trust (HUTH) will be the first in England to implement Lenus Health's technology for managing COPD patients at home through virtual wards and remote monitoring. This approach aims to free up hospital beds, reduce admissions, and offer personalized care. The service has shown promising results in clinical trials by NHS Greater Glasgow and Clyde. Lenus Health co-designed the service to improve access to care for those with socioeconomic challenges. The SBRI award supports this partnership.'
+
+This section describes innovation in digital health a road of incremental improvements summary:
+ 'The NHS is experiencing its worst winter crisis in a decade with record-breaking wait times and waiting lists exceeding 7 million people. Long-term conditions (LTCs) like heart failure, COPD, asthma, diabetes, and kidney disease account for the majority of emergency admissions and bed days. The cost of caring for LTC patients is increasing, with healthcare accounting for around 14% of the UK's GDP. Technological advancements such as intelligent models of care, proactive pathway automation, and digital biomarkers can help address this issue by providing continuous monitoring and anticipating patient deterioration. The focus should shift from specialised, episodic care to proactive, integrated, and preventive care for chronic conditions to improve outcomes and address health inequalities.'
+
+This section describes innovative digital dermatology service to be scaled up across scotland summary:
+ 'Edinburgh-based Storm ID's Lenus Health Platform enables virtual dermatology appointments for Scottish patients with skin conditions. Patients register, submit images and answers, which are assessed remotely by dermatologists via secure messaging. Many cases can be managed without further action. The service offers convenience, saves travel time, and is valuable during COVID-19. Supported by the Modernising Patient Pathways Programme, Scottish Government and NHS National Services Scotland.'
+
+This section describes lenus copd service featured on bbc news summary:
+ 'NHS Greater Glasgow and Clyde's COPD care transformation using Lenus service highlighted as national exemplar, reducing hospital admissions and improving self-management. Chronic lung disease third biggest killer in UK, costing £2bn annually with 1 in 8 emergency hospital admissions. Lenus Health's digital tools crucial to reducing admissions, featured on BBC News. Supported self-management approach demonstrated successful at NHS GGC. Innovation and collaboration key to healthcare system change.'
+
+This section describes lenus copd service shortlisted for the 2023 hsj digital awards summary:
+ 'Lenus Health and NHS Greater Glasgow and Clyde's DYNAMIC project for transforming COPD care with data and predictive AI has been shortlisted for an HSJ Digital Award under the category of Optimising Clinical Pathways Through Digital. The project, which involves developing digital tools to improve patient experience and reduce hospital admissions, was recognized for its ambitious goals, positive outcomes, value, involvement, and potential for replication. COPD affects over 1.2 million people in the UK and is the second leading cause of emergency hospital admission. The team, led by Dr Chris Carlin and Paul McGinness, has successfully evaluated the service with sustained use and reduced admissions, and scaled it up to support 500 patients with COPD. The predictive AI models developed as part of the project have been trialled and found to have a positive impact on both patients and hospital teams.'
+
+This section describes lenus digital service for early heart failure diagnosis shortlisted for innovate award summary:
+ 'The OPERA project, a collaboration between Lenus Health, AstraZeneca UK, NHS Greater Glasgow and Clyde, University of Glasgow, and West of Scotland Innovation teams, is a finalist in the 'Outstanding Collaboration with Industry' category of the Innovate Awards. The project reduced waiting times for heart failure diagnosis from 12 months to under six weeks and is being considered for national rollout in Scotland. Winners of the awards, which recognize innovative projects across 10 categories, will be announced on September 29, 2022.'
+
+This section describes lenus health and us2 ai join forces to automate the fight against heart disease summary:
+ 'Lenus Health and Us2.ai partnership aims to reduce heart failure diagnostic wait times in the NHS through integration of Us2.ai's CE marked echocardiogram viewing tools into Lenus platform. Us2.ai processes echo reports with zero clicks in under two minutes, automating diagnosis and making long wait times obsolete. Pilot study at NHS Louisa Jordan reduced wait time from over a year to six weeks using Lenus Heart Failure Diagnostic service. Opportunity to bring AI tools to community settings for safe diagnostic testing and management of chronic diseases like heart failure.'
+
+This section describes lenus health appoints jack bruck as chief financial officer summary:
+ 'Jack Bruck, a seasoned finance professional with experience at KPMG and multiple tech companies, has joined Lenus Health as CFO. Bruck brings global technology portfolio and financial management expertise to Lenus Health, having worked on investor relations and shareholder initiatives. He is excited to join Lenus Health's innovative team and contribute to its growth and success in the digital health solutions marketplace.'
+
+This section describes lenus health developed by storm id awarded artificial intelligence in health and care award by uk government for innovative lenus copd service summary:
+ 'NHS Greater Glasgow and Clyde, in collaboration with several organizations, launched a digital health service using Lenus Health technology for remote patient monitoring and self-management, supported by clinicians. The partnership includes NHSX, Accelerated Access Collaborative, Digital Health and Care Innovation Centre, and Storm ID.'
+
+This section describes lenus health joins landmark partnership to improve scotland s health summary:
+ 'A collaboration between NHS Scotland, academia, and industry partners, including AstraZeneca UK and Lenus Health, has signed an MOU to improve healthcare through large-scale programs focusing on long term conditions and reducing waiting times. The partnership aims to change clinical practice and expand clinical research, with a goal of enrolling patients in studies and trials for new pathways and therapies. The first project is the OPERA digital patient pathway, which reduced heart failure diagnostic tests waitlist from over 12 months to 6 weeks during a pilot.'
+
+This section describes lenus health named healthtech startup of the year at scotland finals summary:
+ 'Edinburgh's Lenus Health named Scotland's Medtech and Healthtech StartUp of the Year at the National Series Awards, with over 2500 applications and 23 awards given out. Judged by successful entrepreneurs and their supporters. Craig Turpie, co-founder of Lenus Health, expressed delight and hoped for increased awareness. Dylan stated the first year's reception was exceptional and congratulated all category winners. '
+
+This section describes lenus health named supplier on g cloud 13 framework summary:
+ 'G-Cloud 13, launched on 9 November 2022, provides UK public sector with cloud hosting, software, and support services. Lenus Health's services are listed under Lots 1-3 for direct award. CCS supported public sector in achieving commercial benefits worth £2.8bn in 2021/22.'
+
+This section describes lenus health named top uk innovator in support of a greener nhs summary:
+ 'Digital Leaders unveiled the Net Zero 50 List, recognizing Lenus Health as a top innovator in the Net Zero Public Sector category for delivering sustainable digital solutions to the NHS while reducing carbon emissions. The list highlights individuals, organizations, and initiatives leading net zero transformation across sectors. A People's Choice Vote is open, allowing the public to recognize their favorite finalist at the November 16 House of Lords event.'
+
+This section describes lenus health offers engineering opportunity and insight at level up summary:
+ 'Lenus engineering team will share technical content about their work and experiences, including technology deep dives and "A Day in the life of..." diaries. They aim to provide culturally insightful content and hope to inspire innovation in their field. As a spin-off from a digital consultancy, they specialize in Backend and Frontend technologies like .NET and Javascript. They seek passionate individuals to contribute to engineering in the digital healthcare industry and have built a health data exchange platform, integrated activity monitoring devices, and created patient and clinician facing products.'
+
+This section describes lenus health s lead data scientist on the importance of explainable ai summary:
+ 'Artificial intelligence and machine learning in clinical settings require model explainability for trust and safety. Confounding variables and biases are major challenges in developing models for clinical decision making. Asthma patients with pneumonia, for instance, were once incorrectly predicted to have greater survival probability due to treatment policy differences. Biases can also affect under-represented groups in health prediction models, resulting from ground truth diagnosis labeling and model training errors. Lenus Engineering aims to investigate why models make decisions and innovate in explainable AI, focusing on fairness, ethics, and bias reduction.'
+
+This section describes lenus health seeks non executive chair of the board to drive growth summary:
+ 'Lenus Health, a healthcare tech company revolutionizing disease management with AI insights and digital tools, seeks an experienced Non-Executive Chair for strategic leadership and growth. The role demands executive leadership and governance experience, preferably in healthcare sector, exceptional communication skills, strategic thinking, and ethical commitment. Lenus Health aims to streamline care coordination, improve health outcomes, and enhance service efficiencies globally.'
+
+This section describes lenus health shortlisted for dl100 ai innovation of the year summary:
+ 'Scottish health tech start-up Lenus Health named in Digital Leaders 100 list for digital transformation achievements. The list recognizes 100 people and organizations from across the UK. Scotland, North West, and Midlands have strong representation this year, outside London and South East. Public can vote for favorites across award categories to pick a people's choice.'
+
+This section describes lenus health shortlisted for startup awards national series summary:
+ 'Edinburgh's Lenus Health shortlisted as one of Scotland's most exciting new businesses in Startup Awards National Series with stiff competition and over 2500 applications. Co-founded by Paul McGinness, Lenus uses data and AI for long term conditions. Supported nationally by BT, EY, Dell & Intel. Programme celebrates entrepreneurs generating economic prosperity and innovation.'
+
+This section describes lenus health takes home industry collaboration award at digital health care awards scotland summary:
+ 'The 5th annual Holyrood Connect ceremony honored Lenus Health with the Industry Collaboration Award for their partnerships with public sector organizations, marking their second digital health accolade in 6 months.'
+
+This section describes lenus health technology wins hsj award with nhs scotland partners digitising patient pathways initiative summary:
+ 'The HSJ Awards honored 23 winning teams from 204 finalists for UK healthcare excellence last night. NHS Scotland's collaboration with Lenus Health's appointments service won for 'Digitising Patient Pathways Initiative'. Their digital dermatology assessment using Lenus technology showed increased efficiency, high patient-satisfaction, and flexibility, saving thousands of clinical hours in other specialties. Lenus Health praised NHS Scotland's achievement and emphasized the importance of digitally-supported pathways enabling more and better care.'
+
+This section describes lenus health to participate in slush 2022 summary:
+ 'Lenus Health partners with AstraZeneca at Slush 2022 to showcase use of data and AI in long-term condition diagnosis and management. Lenus Health's co-founder and CEO, Paul McGinness, will speak at the Healthcare Innovators Lounge about reducing diagnostic waiting lists and hospital admissions using the Lenus platform. AstraZeneca UK Head of External Scientific Engagement, Binder Fagura, is also attending and emphasizes the partnership's goal to reduce healthcare inequity in the UK and improve patient outcomes.'
+
+This section describes lenus health to support launch of england s first community based heart and lung screening hub summary:
+ 'AstraZeneca grants funding for Everton Football Club's heart and lung screening hub at The People's Place, providing early diagnosis and treatment for chronic breathlessness, with a focus on heart failure and COPD. The hub will offer community-based screenings, raise awareness, and work with leading medical technology providers and charities. The project is the first of its kind in England, supported by Liverpool University Hospitals NHS Foundation Trust.'
+
+This section describes lenus recognised in department for international trade first 100 digital health playbook summary:
+ 'The UK Department for International Trade launched the 'First 100' playbook, recognizing digital health companies committed to export and expansion. Lenus was included due to its patient-generated data combination with healthcare data, enabling AI applications and modernized care pathways through EHR integration and clinical dashboards.'
+
+This section describes lenus shares new evidence for an integrated virtual ward approach summary:
+ 'The Lenus COPD Service, a remote monitoring program for high-risk COPD patients, has been shown to reduce hospital admissions and bed days in Scotland, according to an NHSGGC clinical trial. The service aggregates patient data into a cloud-based clinical dashboard for early intervention and prevention of unnecessary hospitalizations. AI-derived risk prediction scores are being trialed to further enhance proactive management. COPD disproportionately affects lower socioeconomic communities, making its improved management important for reducing health inequalities. ICSs are encouraged to consider virtual wards as part of their plans to address capacity issues and prevent respiratory-related admissions.'
+
+This section describes lenus stratify selected for the innovative devices access pathway idap pilot programme summary:
+ 'Lenus Health's AI models and insights app for COPD assessment selected for IDAP pilot. Eight technologies chosen for bespoke support from MHRA, NHSE, NICE, OLS, SHTG, and HTW. Lenus Stratify identifies COPD patients at risk of hospital admission for prioritized treatment. Goal is to shift care model from reactive to proactive intervention.'
+
+This section describes looming winter pressures eased by targeted ai initiatives summary:
+ 'NHS faces challenging winter due to respiratory illnesses, including COVID-19, flu, and RSV. Proactive measures, such as using AI for predictive analysis and optimizing medication reviews, are crucial to prevent hospital admissions. Chronic Obstructive Pulmonary Disease (COPD) trials in Scotland's largest health board showed success in identifying patients from deprived areas and improving care delivery. Virtual wards help increase capacity, but predictive AI can shift approach from reactive to proactive and save lives and resources. Adopting advanced digital solutions is encouraged due to financial incentives.'
+
+This section describes major opportunities for ai to aid in healthcare for chronic conditions summary:
+ 'With over 17 million people living with chronic conditions in the UK, contributing to 70% of inpatient bed occupancy, demand is outpacing supply due to an aging population. Transformative models of care using data and digital tools, including AI, are needed to address this challenge. AI can lead to earlier intervention, more accurate diagnoses, expedited drug discovery, and automated administrative tasks. Ethical considerations and safeguards must be prioritized in the use of AI.'
+
+This section describes minister of state andrew stephenson visits lenus health to discuss ai in healthcare summary:
+ 'Minister of State Andrew Stephenson visited Lenus Health's Edinburgh office on January 5th to discuss AI's role in healthcare, focusing on chronic conditions and digital diagnostics. Discussions highlighted Lenus Health's AI capabilities in enhancing patient pathways, outcomes, and productivity for COPD and other chronic conditions. Both parties expressed commitment to utilizing innovative tech for improved healthcare delivery and better patient outcomes.'
+
+This section describes new partnership aims to improve emergency cardiac care using artificial intelligence in scotland summary:
+ 'The University of Edinburgh, Edinburgh Napier University, NHS Lothian, and Lenus Health have collaborated to create a digital health pathway aimed at preventing reattendances to Emergency Departments for chest pain or breathlessness patients. The project utilizes DataLoch's secure healthcare data, Edinburgh Napier University's expertise in digital co-design, and Lenus Health's disease management platform. This collaboration aims to prevent one in five of the estimated 30-day reattendances in the UK, saving NHS resources and providing effective treatment earlier.'
+
+This section describes new respiratory monitoring service for covid 19 patients summary:
+ 'Storm ID, NHS Greater Glasgow and Clyde, and Altair Medical are collaborating to create a remote respiratory monitoring solution for COVID-19 patients called CARP. Using Altair's wearable sensor and algorithms alongside Storm ID's Lenus Health Platform, they will gather de-identified patient data and perform machine-learning analyses to develop risk predictive models. If effective, CARP will enable real-time identification and triaging of at-risk patients. The project is funded by the University of Glasgow under their Rapid Research in COVID-19 programme.'
+
+This section describes nhs highland launches respiratory virtual ward with lenus health summary:
+ 'NHS Highland launched a new respiratory virtual ward service using Lenus Health's technology for remote monitoring of patients with respiratory conditions at home. Up to 100 patients will benefit from this service, which enables real-time data sharing between patients and healthcare teams, encourages physical activity, and supports more responsive care. The service builds on the Dynamic Scot project in NHS Greater Glasgow and Clyde and is part of Lenus Health's focus on transforming chronic disease care pathways with their interoperable platform.'
+
+This section describes resmed invests in lenus health recent winner of nhsx ai health and care award summary:
+ 'Lenus Health, a company established in 2020 with a minority investment from ResMed, develops a COPD monitoring service using wearables and AI. This technology, featuring user-centric design and high patient engagement, has shown to reduce emergency room admissions by 28% and hospital bed days per patient per year up to 38%. ResMed also offers digitally connected solutions for respiratory diseases, including a sensor-and-app solution that encourages medication adherence and reduces emergency visits by 53%.'
+
+This section describes storm id nhs greater glasgow clyde and kensci combat copd summary:
+ 'Two parties received £750,000 from Innovate UK to create a COPD care pathway using AI and remote monitoring. In the UK, 1.2 million people have COPD, leading to one in eight hospital admissions. This project aims to reduce one admission per year for high-risk patients, potentially saving the NHS £1.4bn.'
+
+This section describes study finds lenus digital tools cut time spent in hospital in half for lung disease patients summary:
+ 'NHS researchers found that using a digital support service for patients with high-risk COPD led to a reduction in hospital days from 15 to 7 per year.'
+'The study, co-led by NHS GGC consultant in emergency medicine Professor David Lowe and Lenus Health, included a patient app, clinician dashboard, and support website.'
+'Engagement with the digital service was consistent across the population with COPD prevalence.'
+'Patients found the service useful and easily adapted to using it regularly.'
+
+This section describes the future of remote patient monitoring summary:
+ 'Hull University Teaching Hospitals NHS Trust (HUTH) will be the first in England to use Edinburgh-based Lenus Health's technology for managing COPD patients at home, freeing up hospital beds. This approach, called a "virtual ward," uses regular interactions with care teams and remote monitoring. The service aims to reduce unplanned admissions, especially in deprived communities where COPD prevalence is high. HUTH was inspired by successful trials in Scotland, and Lenus received funding for the partnership.'
+
+This section describes the three challenges for digital health in 2017 and how we solved them summary:
+ 'The NHS is experiencing its worst winter in a decade with record-breaking A&E waits, ambulance delays, and waiting lists over 7 million people. Long-term conditions (LTCs) affect around 15 million people in England, with heart failure, COPD, asthma, diabetes, and kidney disease being the most common. Delivering value in current healthcare systems is a challenge, leading to increased spending. Technology, data structuring, and AI can transform expensive services into affordable ones, and proactive pathways are essential for managing multimorbid patients. The UK's population aged 65 and above is projected to grow significantly, necessitating intelligent models of care and automation. Shifting resources towards preventive care pathways for chronic conditions can address capacity issues and health inequalities.'
+
+This section describes what is pharmacovigilance and why does it matter summary:
+ 'Pharmacovigilance is the science of drug safety, involving detection, assessment, understanding, and prevention of adverse events. It ensures benefits of drugs outweigh risks throughout their lifecycle. An adverse event is a negative reaction to a drug, with serious cases causing hospitalization or disability. Pharmacovigilance became crucial after the thalidomide disaster in the 1960s. Digital technologies and patient-generated health data offer opportunities for more efficient pharmacovigilance programs.'
+
+This section describes what is preventive healthcare summary:
+ 'The NHS is experiencing its worst winter crisis in the last decade with record-breaking A&E waits, ambulance delays, and waiting lists over 7 million people. Long-term conditions (LTCs) such as heart failure, COPD, asthma, diabetes, and kidney disease are major issues, accounting for over 70% of inpatient bed days. The cost of caring for LTC patients is increasing, and technology and AI can help by transforming expensive services into affordable ones and providing intelligent, proactive care. A shift from specialised, episodic care to integrated, preventative care for chronic conditions is necessary to address capacity issues and health inequalities.'
+
+This section describes world s first predictive ai for direct care of patients with copd deployed in uk hospital summary:
+ 'A 12-month feasibility study called DYNAMIC-AI was launched to explore how AI can be used in live point-of-care workflows for COPD patients in NHS Greater Glasgow and Clyde. The project uses machine learning models to identify high-risk COPD patients, allowing proactive interventions to improve outcomes and reduce emergency hospital admissions. It is the first operationalised predictive AI application in routine direct care of chronic conditions, with a goal of addressing equality issues and improving access to healthcare for socio-economically disadvantaged areas.'
+
+With the above in mind, explain to me step by step the most important
+    projects, milestones, activities and outcomes the company has achieved over the years.
+    Be precise. Avoid repetition. Use correct grammar. Return a summary that flows,
+    to help the reader get a global overview of the company's achievements and focus.
+
+This section describes minister of state andrew stephenson visits lenus health to discuss ai in healthcare summary:
+ 'Minister of State Andrew Stephenson visited Lenus Health's Edinburgh office on January 5th to discuss AI's role in healthcare, focusing on chronic conditions and digital diagnostics. Discussions highlighted Lenus Health's AI capabilities in enhancing patient pathways, outcomes, and productivity for COPD and other chronic conditions. Both parties expressed commitment to utilizing innovative tech for improved healthcare delivery and better patient outcomes.'
+
+This section describes new partnership aims to improve emergency cardiac care using artificial intelligence in scotland summary:
+ 'The University of Edinburgh, Edinburgh Napier University, NHS Lothian, and Lenus Health have collaborated to create a digital health pathway aimed at preventing reattendances to Emergency Departments for chest pain or breathlessness patients. The project utilizes DataLoch's secure healthcare data, Edinburgh Napier University's expertise in digital co-design, and Lenus Health's disease management platform. This collaboration aims to prevent one in five of the estimated 30-day reattendances in the UK, saving NHS resources and providing effective treatment earlier.'
+
+This section describes new respiratory monitoring service for covid 19 patients summary:
+ 'Storm ID, NHS Greater Glasgow and Clyde, and Altair Medical are collaborating to create a remote respiratory monitoring solution for COVID-19 patients called CARP. Using Altair's wearable sensor and algorithms alongside Storm ID's Lenus Health Platform, they will gather de-identified patient data and perform machine-learning analyses to develop risk predictive models. If effective, CARP will enable real-time identification and triaging of at-risk patients. The project is funded by the University of Glasgow under their Rapid Research in COVID-19 programme.'
+
+This section describes nhs highland launches respiratory virtual ward with lenus health summary:
+ 'NHS Highland launched a new respiratory virtual ward service using Lenus Health's technology for remote monitoring of patients with respiratory conditions at home. Up to 100 patients will benefit from this service, which enables real-time data sharing between patients and healthcare teams, encourages physical activity, and supports more responsive care. The service builds on the Dynamic Scot project in NHS Greater Glasgow and Clyde and is part of Lenus Health's focus on transforming chronic disease care pathways with their interoperable platform.'
+
+This section describes resmed invests in lenus health recent winner of nhsx ai health and care award summary:
+ 'Lenus Health, a company established in 2020 with a minority investment from ResMed, develops a COPD monitoring service using wearables and AI. This technology, featuring user-centric design and high patient engagement, has shown to reduce emergency room admissions by 28% and hospital bed days per patient per year up to 38%. ResMed also offers digitally connected solutions for respiratory diseases, including a sensor-and-app solution that encourages medication adherence and reduces emergency visits by 53%.'
+
+This section describes storm id nhs greater glasgow clyde and kensci combat copd summary:
+ 'Two parties received £750,000 from Innovate UK to create a COPD care pathway using AI and remote monitoring. In the UK, 1.2 million people have COPD, leading to one in eight hospital admissions. This project aims to reduce one admission per year for high-risk patients, potentially saving the NHS £1.4bn.'
+
+This section describes study finds lenus digital tools cut time spent in hospital in half for lung disease patients summary:
+ 'NHS researchers found that using a digital support service for patients with high-risk COPD led to a reduction in hospital days from 15 to 7 per year.'
+'The study, co-led by NHS GGC consultant in emergency medicine Professor David Lowe and Lenus Health, included a patient app, clinician dashboard, and support website.'
+'Engagement with the digital service was consistent across the population with COPD prevalence.'
+'Patients found the service useful and easily adapted to using it regularly.'
+
+This section describes the future of remote patient monitoring summary:
+ 'Hull University Teaching Hospitals NHS Trust (HUTH) will be the first in England to use Edinburgh-based Lenus Health's technology for managing COPD patients at home, freeing up hospital beds. This approach, called a "virtual ward," uses regular interactions with care teams and remote monitoring. The service aims to reduce unplanned admissions, especially in deprived communities where COPD prevalence is high. HUTH was inspired by successful trials in Scotland, and Lenus received funding for the partnership.'
+
+This section describes the three challenges for digital health in 2017 and how we solved them summary:
+ 'The NHS is experiencing its worst winter in a decade with record-breaking A&E waits, ambulance delays, and waiting lists over 7 million people. Long-term conditions (LTCs) affect around 15 million people in England, with heart failure, COPD, asthma, diabetes, and kidney disease being the most common. Delivering value in current healthcare systems is a challenge, leading to increased spending. Technology, data structuring, and AI can transform expensive services into affordable ones, and proactive pathways are essential for managing multimorbid patients. The UK's population aged 65 and above is projected to grow significantly, necessitating intelligent models of care and automation. Shifting resources towards preventive care pathways for chronic conditions can address capacity issues and health inequalities.'
+
+This section describes what is pharmacovigilance and why does it matter summary:
+ 'Pharmacovigilance is the science of drug safety, involving detection, assessment, understanding, and prevention of adverse events. It ensures benefits of drugs outweigh risks throughout their lifecycle. An adverse event is a negative reaction to a drug, with serious cases causing hospitalization or disability. Pharmacovigilance became crucial after the thalidomide disaster in the 1960s. Digital technologies and patient-generated health data offer opportunities for more efficient pharmacovigilance programs.'
+
+This section describes what is preventive healthcare summary:
+ 'The NHS is experiencing its worst winter crisis in the last decade with record-breaking A&E waits, ambulance delays, and waiting lists over 7 million people. Long-term conditions (LTCs) such as heart failure, COPD, asthma, diabetes, and kidney disease are major issues, accounting for over 70% of inpatient bed days. The cost of caring for LTC patients is increasing, and technology and AI can help by transforming expensive services into affordable ones and providing intelligent, proactive care. A shift from specialised, episodic care to integrated, preventative care for chronic conditions is necessary to address capacity issues and health inequalities.'
+
+This section describes world s first predictive ai for direct care of patients with copd deployed in uk hospital summary:
+ 'A 12-month feasibility study called DYNAMIC-AI was launched to explore how AI can be used in live point-of-care workflows for COPD patients in NHS Greater Glasgow and Clyde. The project uses machine learning models to identify high-risk COPD patients, allowing proactive interventions to improve outcomes and reduce emergency hospital admissions. It is the first operationalised predictive AI application in routine direct care of chronic conditions, with a goal of addressing equality issues and improving access to healthcare for socio-economically disadvantaged areas.'
+
+With the above in mind, explain to me step by step the most important
+    projects, milestones, activities and outcomes the company has achieved over the years.
+    Be precise. Avoid repetition. Use correct grammar. Return a summary that flows,
+    to help the reader get a global overview of the company's achievements and focus.
