@@ -38,7 +38,7 @@ The initial version's `news/` directory contains [Lenus Health](http://lenusheal
 
 
 ## Future work
-See [project issues](https://github.com:inferential/NewsSummarised.jl/issues) for more information.  
+See [issues](https://github.com/inferential/NewsSummarised.jl/issues) for more information.  
 
 ---
 *`<base url>`/robots.txt is respected ✅
