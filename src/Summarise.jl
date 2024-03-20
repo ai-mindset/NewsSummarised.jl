@@ -100,9 +100,11 @@ function summarise_text(model::String, chunks::Dict{Int64,String}, stage::String
     local url = "http://localhost:11434/api/generate"
     for (_, v) in chunks
         prompt = "Transcript excerpt: $v"
-        prompt *= """\nSummarise the news bulletin above and highlight its most important points.
-            Only return the summary, wrapped in single quotes (' '), and nothing else.
-            Be precise."""
+        prompt *= """
+        Summarise the news bulletin above and highlight its most important points.
+        Only return the summary, wrapped in single quotes (' '), and nothing else.
+        Be precise.
+        """
         req = OllamaAI.send_request(prompt, model, stage)
         res = request("POST", url, [("Content-type", "application/json")], req)
         if res.status == 200
@@ -115,33 +117,6 @@ function summarise_text(model::String, chunks::Dict{Int64,String}, stage::String
 
     return summaries
 end
-
-##
-"""
-   is_empty(filename::String)::Bool
-
-Check if `filename` file is empty
-
-# Arguments
-- `filename::String`: Filename we'd like to Check
-
-# Returns
-- `is_empty::Bool`: Flag indicating if `filename` is empty. True = empty, False = is populated
-"""
-function is_empty(filename::String)::Bool
-    local is_empty::Bool = false
-
-    open(filename) do file
-        content::String = read(file, String)
-        if content == ""
-            is_empty = true
-        end
-    end
-
-    return is_empty
-
-end
-
 
 ##
 """
@@ -158,30 +133,45 @@ function master_summary(model::String, final_file::String)::Vector{String}
     # Given we've navigated to `./news`, list .txt files
     file_list::Vector{String} = glob("*.txt")
     file = "merged-summaries.txt"
+    # Workaround since we're using append = true to incrementally populate `file` in for loop below
+    if isfile(file) && filesize(file) > 0
+        rm(file)
+    end
     out_file::IOStream = open(file, "a")
 
-    prompt = "The following paragraphs summarise the company's activity since 2018.
-    The company has been exploring aspects of healthcare, ways to improve patient outcomes,
-    prevent and diagnose illness in a timely manner.
-    Here is how the company has explored the British healthcare space:\n\n
-    "
-    write(out_file, prompt)
-    for txt in file_list
-        file_title::String = replace(basename(txt), "-" => " ")
-        file_title = replace(file_title, ".txt" => "")
-        file_content = read(txt, String)
-        write(out_file, "This section describes $file_title:\n$file_content\n\n")
+    if filesize(file) == 0
+        prompt = """
+        The following paragraphs summarise the company's activity since its incorporation.
+        The company has been exploring aspects of healthcare, ways to improve patient outcomes,
+        prevent illness, reach diagnosis in a timely manner and manage chronic conditions with the
+        help of commercially available technology.
+        Below are the company's news posts, summarised, showcasing how the company explores
+        and contributes to the British healthcare space:\n\n
+        """
+
+        write(out_file, prompt)
+        for txt in file_list
+            file_title::String = replace(basename(txt), "-" => " ")
+            file_title = replace(file_title, ".txt" => "")
+            file_content = read(txt, String)
+            write(out_file, """This section contains the "$file_title":\n$file_content\n\n""")
+        end
+
+        final_statement = """
+        Based on the above, explain step by step the most important projects, milestones,
+        activities and outcomes the company has achieved since its start. Return a summary
+        that grammatically and syntactically flows, to allow the reader to get a global overview
+        of all achievements and future aims. Be precise. Avoid repetition. Use correct English.
+        """
+        write(out_file, final_statement)
+        close(out_file)
+
+        println("Merged all summaries ")
     end
-    final_statement = "With the above in mind, explain to me step by step the most important
-    projects, milestones, activities and outcomes the company has achieved over the years.
-    Be precise. Avoid repetition. Use correct grammar. Return a summary that flows,
-    to help the reader get a global overview of the company's achievements and focus."
-    write(out_file, final_statement)
-    close(out_file)
 
     c::Dict{Int64,String} = segment_input(read(file, String))
     final_summary::Vector{String} = summarise_text(model, c, "Final summary")
-    f = open(final_file, "a")
+    f = open(final_file, "w")
     write(f, join(final_summary, " "))
     close(f)
 

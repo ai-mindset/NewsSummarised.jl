@@ -44,7 +44,7 @@ function julia_main()::Vector{String}
     end
 
     if !isfile(FINAL_FILE)
-        # Summarise the summaries to get a final insight of the company's activities over their existence
+        # Summarise the summaries to get a final insight of the company's activities throughout their existence
         final_summary::Vector{String} = Summarise.master_summary(MODEL, FINAL_FILE)
     else
         f = open(FINAL_FILE)
@@ -57,7 +57,9 @@ function julia_main()::Vector{String}
 
 end
 
-summary = julia_main()
-println(summary)
+@time begin
+    final = julia_main()
+    println(join(final, " "))
+end
 
-end # module LenusHealthNewsSummarised
+end # module NewsSummarised
