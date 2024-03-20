@@ -1,8 +1,6 @@
 # NewsSummarised.jl
 
-[![SciML Code Style](https://img.shields.io/static/v1?label=code%20style&message=SciML&color=9558b2&labelColor=389826)](https://github.com/SciML/SciMLStyle)
-
-[![Run tests](https://github.com/inferential/NewsSummarised.jl/actions/workflows/tests.yml/badge.svg)](https://github.com/inferential/NewsSummarised.jl/actions/workflows/tests.yml)
+[![SciML Code Style](https://img.shields.io/static/v1?label=code%20style&message=SciML&color=9558b2&labelColor=389826)](https://github.com/SciML/SciMLStyle) [![Run tests](https://github.com/inferential/NewsSummarised.jl/actions/workflows/tests.yml/badge.svg)](https://github.com/inferential/NewsSummarised.jl/actions/workflows/tests.yml)
 
 ## Introduction
 This is a small project that has a threefold aim: 
