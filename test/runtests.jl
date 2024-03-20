@@ -1,4 +1,4 @@
-using LenusHealthNewsSummarised
+using NewsSummarised
 using Test
 
 @testset "Test webscraping and summarising steps" begin
