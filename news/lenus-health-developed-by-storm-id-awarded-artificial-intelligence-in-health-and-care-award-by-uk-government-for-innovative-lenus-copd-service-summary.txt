@@ -1,1 +1,0 @@
- 'NHS Greater Glasgow and Clyde, in collaboration with several organizations, launched a digital health service using Lenus Health technology for remote patient monitoring and self-management, supported by clinicians. The partnership includes NHSX, Accelerated Access Collaborative, Digital Health and Care Innovation Centre, and Storm ID.'

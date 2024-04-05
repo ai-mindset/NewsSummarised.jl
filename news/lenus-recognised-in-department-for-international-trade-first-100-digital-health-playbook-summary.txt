@@ -1,1 +1,0 @@
- 'The UK Department for International Trade launched the 'First 100' playbook, recognizing digital health companies committed to export and expansion. Lenus was included due to its patient-generated data combination with healthcare data, enabling AI applications and modernized care pathways through EHR integration and clinical dashboards.'

@@ -1,1 +1,0 @@
- 'The National Notification and Digital Tracing Service was developed at pace to provide COVID-19 test result notifications using secure integrations with NHS systems. It allowed over 2 million people to access their test results and share contact details for contact tracing efforts, resulting in 75% of self-reporting within an hour of receiving positive results.'

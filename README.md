@@ -34,8 +34,7 @@ same as above
 The first run may take a while, as every article is getting summarised and all summaries are summarised into a final document.  
 LLM inference on computers with a relatively modern GPU will be faster.  Inference on CPU is possible, but expect a significantly lower output.    
 Subsequent runs will be faster, as the tool loads `news/final-summary.txt` from storage before printing.  
-The initial version's `news/` directory contains [Lenus Health](http://lenushealth.com/news) news articles, scraped* and summarised as the first use case of this utility.
-
+⚠️: Every now and again I expand the tool's scope, depending on company websites I stumble across. Check the repo branches for specific companies I've implemented a web scraper for. The list is random, depending on websites I've encountered and the articles' volume that have posted. The more articles the merrier, as this showcases this tool's utility in saving up time and offering an overview of activities.    
 
 ## Future work
 See [issues](https://github.com/inferential/NewsSummarised.jl/issues) for more information.  

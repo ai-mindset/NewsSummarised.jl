@@ -1,4 +1,0 @@
- 'NHS researchers found that using a digital support service for patients with high-risk COPD led to a reduction in hospital days from 15 to 7 per year.'
-'The study, co-led by NHS GGC consultant in emergency medicine Professor David Lowe and Lenus Health, included a patient app, clinician dashboard, and support website.'
-'Engagement with the digital service was consistent across the population with COPD prevalence.'
-'Patients found the service useful and easily adapted to using it regularly.'
